@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		A1C7BB9B2B03EFBA00C1561F /* BocaditosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7BB9A2B03EFBA00C1561F /* BocaditosApp.swift */; };
-		A1C7BB9D2B03EFBA00C1561F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7BB9C2B03EFBA00C1561F /* ContentView.swift */; };
+		A1C7BB9D2B03EFBA00C1561F /* BocaditosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7BB9C2B03EFBA00C1561F /* BocaditosView.swift */; };
 		A1C7BB9F2B03EFBD00C1561F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C7BB9E2B03EFBD00C1561F /* Assets.xcassets */; };
 		A1C7BBA22B03EFBD00C1561F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C7BBA12B03EFBD00C1561F /* Preview Assets.xcassets */; };
+		A1C7BBA92B03F06500C1561F /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7BBA82B03F06500C1561F /* ModelData.swift */; };
+		A1C7BBAD2B03F33B00C1561F /* Bocaditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7BBAC2B03F33B00C1561F /* Bocaditos.swift */; };
+		A1C7BBAF2B0402A500C1561F /* BocaditosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7BBAE2B0402A500C1561F /* BocaditosListView.swift */; };
+		A1C7BBB12B04154700C1561F /* initialData.json in Resources */ = {isa = PBXBuildFile; fileRef = A1C7BBB02B04154700C1561F /* initialData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1C7BB972B03EFBA00C1561F /* Bocaditos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bocaditos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C7BB9A2B03EFBA00C1561F /* BocaditosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BocaditosApp.swift; sourceTree = "<group>"; };
-		A1C7BB9C2B03EFBA00C1561F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1C7BB9C2B03EFBA00C1561F /* BocaditosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BocaditosView.swift; sourceTree = "<group>"; };
 		A1C7BB9E2B03EFBD00C1561F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C7BBA12B03EFBD00C1561F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1C7BBA82B03F06500C1561F /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		A1C7BBAC2B03F33B00C1561F /* Bocaditos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bocaditos.swift; sourceTree = "<group>"; };
+		A1C7BBAE2B0402A500C1561F /* BocaditosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BocaditosListView.swift; sourceTree = "<group>"; };
+		A1C7BBB02B04154700C1561F /* initialData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = initialData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		A1C7BB992B03EFBA00C1561F /* Bocaditos */ = {
 			isa = PBXGroup;
 			children = (
+				A1C7BBB22B0419A200C1561F /* Resources */,
 				A1C7BB9A2B03EFBA00C1561F /* BocaditosApp.swift */,
-				A1C7BB9C2B03EFBA00C1561F /* ContentView.swift */,
+				A1C7BB9C2B03EFBA00C1561F /* BocaditosView.swift */,
+				A1C7BBAE2B0402A500C1561F /* BocaditosListView.swift */,
+				A1C7BBAC2B03F33B00C1561F /* Bocaditos.swift */,
+				A1C7BBA82B03F06500C1561F /* ModelData.swift */,
 				A1C7BB9E2B03EFBD00C1561F /* Assets.xcassets */,
 				A1C7BBA02B03EFBD00C1561F /* Preview Content */,
 			);
@@ -65,6 +77,14 @@
 				A1C7BBA12B03EFBD00C1561F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1C7BBB22B0419A200C1561F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7BBB02B04154700C1561F /* initialData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C7BBB12B04154700C1561F /* initialData.json in Resources */,
 				A1C7BBA22B03EFBD00C1561F /* Preview Assets.xcassets in Resources */,
 				A1C7BB9F2B03EFBD00C1561F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C7BB9D2B03EFBA00C1561F /* ContentView.swift in Sources */,
+				A1C7BB9D2B03EFBA00C1561F /* BocaditosView.swift in Sources */,
 				A1C7BB9B2B03EFBA00C1561F /* BocaditosApp.swift in Sources */,
+				A1C7BBAD2B03F33B00C1561F /* Bocaditos.swift in Sources */,
+				A1C7BBAF2B0402A500C1561F /* BocaditosListView.swift in Sources */,
+				A1C7BBA92B03F06500C1561F /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

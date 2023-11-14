@@ -11,7 +11,7 @@ import SwiftUI
 struct BocaditosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BocaditosView()
         }
     }
 }

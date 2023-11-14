@@ -1,0 +1,152 @@
+[
+    {
+        "calories": 300,
+        "protein": 14,
+        "price": 8.99,
+        "description": "This perfectly thin cut just melts in your mouth.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg",
+        "name": "Asian Flank Steak",
+        "id": 1,
+        "carbs": 0
+    },
+    {
+        "calories": 450,
+        "protein": 4,
+        "price": 6.99,
+        "description": "Seasoned shrimp from the depths of the Atlantic Ocean.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/blackened-shrimp.jpg",
+        "name": "Blackened Shrimp",
+        "id": 2,
+        "carbs": 3
+    },
+    {
+        "calories": 800,
+        "protein": 5,
+        "price": 7.49,
+        "description": "The tasty bites of chicken have just the right amount of kick to them.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/buffalo-chicken-bites.jpg",
+        "name": "Buffalo Chicken Bites",
+        "id": 3,
+        "carbs": 22
+    },
+    {
+        "calories": 480,
+        "protein": 7,
+        "price": 12.99,
+        "description": "These won't last 10 seconds once they hit the table.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/chicken-avocado-spring-roll.jpg",
+        "name": "Chicken Avocado Spring Roll",
+        "id": 4,
+        "carbs": 19
+    },
+    {
+        "calories": 580,
+        "protein": 4,
+        "price": 8.99,
+        "description": "It's really hard to keep coming up with these descriptions.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/chicken-dumplings.jpg",
+        "name": "Chicken Dumplings",
+        "id": 5,
+        "carbs": 14
+    },
+    {
+        "calories": 675,
+        "protein": 9,
+        "price": 9.99,
+        "description": "You can never go wrong with some good tenders.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/chicken-fingers.jpg",
+        "name": "Chicken Fingers",
+        "id": 6,
+        "carbs": 5
+    },
+    {
+        "calories": 700,
+        "protein": 13,
+        "price": 11.49,
+        "description": "You'll need extra napkins with these tasty treats.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/chicken-wings.jpg",
+        "name": "Chicken Wings",
+        "id": 7,
+        "carbs": 11
+    },
+    {
+        "calories": 415,
+        "protein": 2,
+        "price": 8.29,
+        "description": "I'm getting soooo hungry building this app...",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/fried-cheese-ravioli.jpg",
+        "name": "Fried Cheese Ravioli",
+        "id": 8,
+        "carbs": 29
+    },
+    {
+        "calories": 625,
+        "protein": 3,
+        "price": 13.99,
+        "description": "Scrumptious tots with a side of ranch.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/jumbo-tater-tot.jpg",
+        "name": "Jumbo Tater Tots",
+        "id": 9,
+        "carbs": 40
+    },
+    {
+        "calories": 500,
+        "protein": 33,
+        "price": 12.99,
+        "description": "It's a spiiiiicy meat-a-ball!",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/meatballs.jpg",
+        "name": "Meatballs",
+        "id": 10,
+        "carbs": 2
+    },
+    {
+        "calories": 930,
+        "protein": 2,
+        "price": 6.99,
+        "description": "The best appetizer there is.\nDon't @ me.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/mozzarella-sticks.jpg",
+        "name": "Mozzarella Sticks",
+        "id": 11,
+        "carbs": 32
+    },
+    {
+        "calories": 725,
+        "protein": 28,
+        "price": 10.99,
+        "description": "These look incredible. That's it. That's the description.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/philly-cheesesteak-sliders.jpg",
+        "name": "Philly Cheesesteak Sliders",
+        "id": 12,
+        "carbs": 28
+    },
+    {
+        "calories": 270,
+        "protein": 2,
+        "price": 5.99,
+        "description": "How did these even make the menu???",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/rainbow-spring-rolls.jpg",
+        "name": "Rainbow Spring Rolls",
+        "id": 13,
+        "carbs": 4
+    },
+    {
+        "calories": 850,
+        "protein": 4,
+        "price": 12.49,
+        "description": "I'm getting hungrier just looking at these.",
+        "imageURL": "https://seanallen-course-backend.herokuapp.com/images/appetizers/stuff-shells.jpg",
+        "name": "Stuffed Shells",
+        "id": 14,
+        "carbs": 42
+    }
+]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
